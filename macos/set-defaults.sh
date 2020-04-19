@@ -542,6 +542,9 @@ defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
 # Update extensions automatically
 defaults write com.apple.Safari InstallExtensionUpdatesAutomatically -bool true
 
+#notifications
+defaults write ~/Library/Preferences/com.apple.Safari CanPromptForPushNotifications -boolean NO
+
 ###############################################################################
 # Mail                                                                        #
 ###############################################################################
@@ -810,6 +813,7 @@ defaults write com.google.Chrome.canary DisablePrintPreview -bool true
 # Expand the print dialog by default
 defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
 defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool true
+
 
 ###############################################################################
 # GPGMail 2                                                                   #
